@@ -66,7 +66,7 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-image: url(879-1200x300.jpg);
+  background-image: url(image/879-1200x300.jpg);
   background-size: cover;
 }
 @keyframes appear {
@@ -253,7 +253,6 @@ div#Map1 {
   padding: 20px;
   margin-right: 10px;
   margin-left: 10px;
-
 }
 @media all and (max-width: 800px) {
   .nav {
@@ -284,12 +283,12 @@ div#Map1 {
   }
   input,
   textarea {
-  display: block;
-  width: 100%;
-  padding: 12px 6px;
-  font-size: 0.8em;
-  border: 1px solid #d7ced7;
-  box-sizing: border-box; 
+    display: block;
+    width: 100%;
+    padding: 12px 6px;
+    font-size: 0.8em;
+    border: 1px solid #d7ced7;
+    box-sizing: border-box;
   }
 }
 @media all and (max-width: 600px) {
@@ -331,7 +330,6 @@ div#Map1 {
   }
   .project-main-article {
     width: 300px;
-  
   }
   .project-display {
     flex-wrap: wrap;
@@ -360,14 +358,14 @@ div#Map1 {
   }
   .contact-area {
     flex-direction: column;
-   }
+  }
   input,
   textarea {
-  display: block;
-  width: 100%;
-  padding: 12px 6px;
-  font-size: 0.8em;
-  border: 1px solid #d7ced7;
-  box-sizing: border-box; 
+    display: block;
+    width: 100%;
+    padding: 12px 6px;
+    font-size: 0.8em;
+    border: 1px solid #d7ced7;
+    box-sizing: border-box;
   }
 }

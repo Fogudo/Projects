@@ -1,32 +1,28 @@
 "use strict";
 
-const sensorData = [
+const weapons = [
   {
-    id: 1,
-    date: "20-DEC-2023",
-    maxTemp: 34,
-    minTemp: 25,
+    item: "Red Orbs",
+    cost: 240,
   },
   {
-    id: 2,
-    date: "22-DEC-2023",
-    maxTemp: 31,
-    minTemp: 19,
+    item: "Green Orbs",
+    cost: 194,
   },
   {
-    id: 3,
-    date: "24-DEC-2023",
-    maxTemp: 32,
-    minTemp: 19.5,
+    item: "Yellow Orbs",
+    cost: 154,
   },
   {
-    id: 4,
-    date: "26-DEC-2023",
-    maxTemp: 30,
-    minTemp: 18.5,
+    item: "Kill Machine",
+    cost: 80,
   },
 ];
 
-for (const data of sensorData.reverse()) {
-  console.log(`${data.date} | MAX: ${data.maxTemp}, MIN: ${data.minTemp}`);
-}
+const displayWeapons = (arr) => {
+  for (const elem of arr) {
+    console.log(`${elem.item}:`, `$${elem.cost}`);
+  }
+};
+
+displayWeapons(weapons.reverse());
